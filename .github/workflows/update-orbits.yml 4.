@@ -1,0 +1,46 @@
+name: GVSA - public ISS and Starlink OMM refresh
+on:
+  workflow_dispatch:
+  schedule:
+    # Approximately four times/day in UTC; GitHub scheduling is not exact.
+    - cron: '21 2,8,14,20 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gvsa-orbital-public-snapshots
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout public orbital dataset repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline unit tests (no CelesTrak traffic)
+        run: python -m unittest discover -s automation -p 'test_*.py' -v
+      - name: Download official OMM safely; keep last good data if failed
+        id: update
+        continue-on-error: true
+        run: python automation/publish.py
+      - name: Commit publish results, including provider errors and request ledger
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'gvsa-orbital-update[bot]'
+          git config user.email 'gvsa-orbital-update@users.noreply.github.com'
+          git add -A automation/state.json orbital/
+          if ! git diff --cached --quiet; then
+            git commit -m 'GVSA: validated CelesTrak OMM snapshots and status'
+            git push
+          fi
+      - name: Surface upstream failure (no silent success)
+        if: steps.update.outcome != 'success'
+        run: |
+          echo 'Upstream rejected/failed; no invalid OMM was published. Inspect orbital/update-status.json.'
+          exit 1
