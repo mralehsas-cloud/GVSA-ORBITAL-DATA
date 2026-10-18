@@ -5,14 +5,14 @@
       "last_attempt_utc": "2026-10-18T02:50:13Z",
       "last_epoch_utc": "2026-10-17T19:43:43Z",
       "last_success_utc": "2026-10-18T02:50:13Z",
-      "status": "PUBLISHED"
+      "status": "SIX_HOUR_COOLDOWN"
     },
     "starlink": {
       "last_attempt_unix": 1792291813.8132534,
       "last_attempt_utc": "2026-10-18T02:50:13Z",
       "last_epoch_utc": "2026-10-18T00:00:02Z",
       "last_success_utc": "2026-10-18T02:50:13Z",
-      "status": "PUBLISHED"
+      "status": "SIX_HOUR_COOLDOWN"
     }
   },
   "schema": "gvsa-public-orbit-1"
