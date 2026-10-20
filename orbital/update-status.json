@@ -3,19 +3,19 @@
     "iss": {
       "epoch_utc": "2026-10-18T03:28:15Z",
       "error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: URLError",
-      "last_attempt_utc": "2026-10-19T02:52:37Z",
+      "last_attempt_utc": "2026-10-20T02:53:32Z",
       "last_success_utc": "2026-10-18T14:46:33Z",
-      "status": "PROVIDER_BACKOFF"
+      "status": "FAILED_PROVIDER_OR_SCHEMA"
     },
     "starlink": {
       "epoch_utc": "2026-10-19T13:30:09Z",
       "error": null,
       "last_attempt_utc": "2026-10-19T20:53:30Z",
       "last_success_utc": "2026-10-19T20:53:30Z",
-      "status": "PUBLISHED"
+      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
     }
   },
   "schema": "gvsa-public-orbit-1",
   "source": "CelesTrak GP (original OMM; sample of 36 Starlink objects)",
-  "updated_at_utc": "2026-10-19T20:53:30Z"
+  "updated_at_utc": "2026-10-20T02:53:32Z"
 }
