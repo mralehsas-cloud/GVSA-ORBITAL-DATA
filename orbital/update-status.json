@@ -12,10 +12,10 @@
       "error": null,
       "last_attempt_utc": "2026-10-20T18:32:05Z",
       "last_success_utc": "2026-10-20T18:32:05Z",
-      "status": "PUBLISHED"
+      "status": "SIX_HOUR_COOLDOWN"
     }
   },
   "schema": "gvsa-public-orbit-1",
   "source": "CelesTrak GP (original OMM; sample of 36 Starlink objects)",
-  "updated_at_utc": "2026-10-20T18:32:05Z"
+  "updated_at_utc": "2026-10-20T23:14:02Z"
 }

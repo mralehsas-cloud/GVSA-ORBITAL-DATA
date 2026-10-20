@@ -14,7 +14,7 @@
       "last_attempt_utc": "2026-10-20T18:32:05Z",
       "last_epoch_utc": "2026-10-20T13:07:12Z",
       "last_success_utc": "2026-10-20T18:32:05Z",
-      "status": "PUBLISHED"
+      "status": "SIX_HOUR_COOLDOWN"
     }
   },
   "schema": "gvsa-public-orbit-1"
