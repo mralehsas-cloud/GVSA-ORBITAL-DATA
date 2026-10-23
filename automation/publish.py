@@ -77,6 +77,7 @@ def execute(now=None, downloader=download):
         if stopped:
             message='SKIPPED_AFTER_PROVIDER_ERROR'
         elif now<retry:
+            failed = failed or bool(row.get('last_error'))
             message='PROVIDER_BACKOFF'; print(f'{kind}: {message}, until {utc(retry)}')
         elif now-last<INTERVAL:
             message='SIX_HOUR_COOLDOWN'; print(f'{kind}: {message}')
@@ -116,3 +117,4 @@ def execute(now=None, downloader=download):
 
 if __name__=='__main__':
     sys.exit(execute())
+

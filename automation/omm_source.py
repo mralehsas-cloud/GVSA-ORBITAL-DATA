@@ -128,7 +128,11 @@ def download(url, max_bytes=MAX_BYTES, timeout=65):
     except HTTPError as exc:
         raise RuntimeError(f'UPSTREAM_HTTP_{exc.code}') from exc
     except (URLError, TimeoutError, OSError) as exc:
-        raise RuntimeError('UPSTREAM_NETWORK_OR_TLS_FAILURE: '+type(exc).__name__) from exc
+        reason = getattr(exc, 'reason', exc)
+        raise RuntimeError(
+            f'UPSTREAM_NETWORK_OR_TLS_FAILURE: '
+            f'{type(reason).__name__}: {str(reason)[:160]}'
+        ) from exc
 
 
 def parse_payload(kind, payload, now):
@@ -234,3 +238,4 @@ def main(argv=None):
 
 if __name__=='__main__':
     sys.exit(main())
+

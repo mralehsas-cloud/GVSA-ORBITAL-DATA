@@ -36,3 +36,4 @@ class TestOrbits(TestCase):
         with self.assertRaises(ValueError):parse_payload('iss',b'',self.now)
     def test_old_existing_can_compare(self):
         self.assertTrue(valid_existing('iss',[self.template]))
+
