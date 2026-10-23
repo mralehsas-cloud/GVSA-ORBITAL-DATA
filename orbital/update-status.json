@@ -5,17 +5,17 @@
       "error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: URLError",
       "last_attempt_utc": "2026-10-23T07:41:53Z",
       "last_success_utc": "2026-10-21T13:56:05Z",
-      "status": "FAILED_PROVIDER_OR_SCHEMA"
+      "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
       "epoch_utc": "2026-10-21T08:07:53Z",
       "error": "UPSTREAM_HTTP_403",
       "last_attempt_utc": "2026-10-22T23:27:41Z",
       "last_success_utc": "2026-10-21T23:26:36Z",
-      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
+      "status": "PROVIDER_BACKOFF"
     }
   },
   "schema": "gvsa-public-orbit-1",
   "source": "CelesTrak GP (original OMM; sample of 36 Starlink objects)",
-  "updated_at_utc": "2026-10-23T07:41:53Z"
+  "updated_at_utc": "2026-10-23T13:35:20Z"
 }

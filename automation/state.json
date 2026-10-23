@@ -7,7 +7,7 @@
       "last_error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: URLError",
       "last_success_utc": "2026-10-21T13:56:05Z",
       "no_request_before_unix": 1792827713.7747734,
-      "status": "FAILED_PROVIDER_OR_SCHEMA"
+      "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
       "last_attempt_unix": 1792711661.5802693,
@@ -16,7 +16,7 @@
       "last_error": "UPSTREAM_HTTP_403",
       "last_success_utc": "2026-10-21T23:26:36Z",
       "no_request_before_unix": 1792798061.5802693,
-      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
+      "status": "PROVIDER_BACKOFF"
     }
   },
   "schema": "gvsa-public-orbit-1"
