@@ -10,13 +10,11 @@
       "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
-      "last_attempt_unix": 1792711661.5802693,
-      "last_attempt_utc": "2026-10-22T23:27:41Z",
-      "last_epoch_utc": "2026-10-21T08:07:53Z",
-      "last_error": "UPSTREAM_HTTP_403",
-      "last_success_utc": "2026-10-21T23:26:36Z",
-      "no_request_before_unix": 1792798061.5802693,
-      "status": "PROVIDER_BACKOFF"
+      "last_attempt_unix": 1792826686.0785666,
+      "last_attempt_utc": "2026-10-24T07:24:46Z",
+      "last_epoch_utc": "2026-10-24T00:00:02Z",
+      "last_success_utc": "2026-10-24T07:24:46Z",
+      "status": "PUBLISHED"
     }
   },
   "schema": "gvsa-public-orbit-1"
