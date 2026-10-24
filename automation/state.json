@@ -5,14 +5,14 @@
       "last_attempt_utc": "2026-10-24T12:46:16Z",
       "last_epoch_utc": "2026-10-24T05:01:11Z",
       "last_success_utc": "2026-10-24T12:46:16Z",
-      "status": "PUBLISHED"
+      "status": "SIX_HOUR_COOLDOWN"
     },
     "starlink": {
-      "last_attempt_unix": 1792826686.0785666,
-      "last_attempt_utc": "2026-10-24T07:24:46Z",
-      "last_epoch_utc": "2026-10-24T00:00:02Z",
-      "last_success_utc": "2026-10-24T07:24:46Z",
-      "status": "SIX_HOUR_COOLDOWN"
+      "last_attempt_unix": 1792862991.4257507,
+      "last_attempt_utc": "2026-10-24T17:29:51Z",
+      "last_epoch_utc": "2026-10-24T08:13:15Z",
+      "last_success_utc": "2026-10-24T17:29:51Z",
+      "status": "PUBLISHED"
     }
   },
   "schema": "gvsa-public-orbit-1"
