@@ -5,17 +5,17 @@
       "error": null,
       "last_attempt_utc": "2026-11-01T18:59:44Z",
       "last_success_utc": "2026-11-01T09:24:04Z",
-      "status": "UNCHANGED_OLDER_OR_EQUAL_EPOCH"
+      "status": "SIX_HOUR_COOLDOWN"
     },
     "starlink": {
       "epoch_utc": "2026-11-01T08:00:03Z",
       "error": null,
       "last_attempt_utc": "2026-11-01T18:59:44Z",
       "last_success_utc": "2026-11-01T18:59:44Z",
-      "status": "PUBLISHED"
+      "status": "SIX_HOUR_COOLDOWN"
     }
   },
   "schema": "gvsa-public-orbit-1",
   "source": "CelesTrak GP (original OMM; sample of 36 Starlink objects)",
-  "updated_at_utc": "2026-11-01T18:59:44Z"
+  "updated_at_utc": "2026-11-01T23:41:00Z"
 }
