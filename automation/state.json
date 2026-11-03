@@ -7,14 +7,14 @@
       "last_error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: TimeoutError: timed out",
       "last_success_utc": "2026-11-02T22:48:42Z",
       "no_request_before_unix": 1793785355.8544035,
-      "status": "FAILED_PROVIDER_OR_SCHEMA"
+      "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
-      "last_attempt_unix": 1793659722.4612803,
-      "last_attempt_utc": "2026-11-02T22:48:42Z",
-      "last_epoch_utc": "2026-11-02T14:00:01Z",
-      "last_success_utc": "2026-11-02T22:48:42Z",
-      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
+      "last_attempt_unix": 1793737924.1271176,
+      "last_attempt_utc": "2026-11-03T20:32:04Z",
+      "last_epoch_utc": "2026-11-03T16:00:01Z",
+      "last_success_utc": "2026-11-03T20:32:04Z",
+      "status": "PUBLISHED"
     }
   },
   "schema": "gvsa-public-orbit-1"
