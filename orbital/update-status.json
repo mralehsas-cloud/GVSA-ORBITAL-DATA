@@ -1,21 +1,21 @@
 {
   "feeds": {
     "iss": {
-      "epoch_utc": "2026-11-04T21:15:15Z",
+      "epoch_utc": "2026-11-05T20:28:36Z",
       "error": null,
-      "last_attempt_utc": "2026-11-05T21:07:48Z",
-      "last_success_utc": "2026-11-05T09:38:01Z",
-      "status": "UNCHANGED_OLDER_OR_EQUAL_EPOCH"
+      "last_attempt_utc": "2026-11-06T09:31:08Z",
+      "last_success_utc": "2026-11-06T09:31:08Z",
+      "status": "PUBLISHED"
     },
     "starlink": {
-      "epoch_utc": "2026-11-05T00:00:02Z",
+      "epoch_utc": "2026-11-06T00:00:02Z",
       "error": null,
-      "last_attempt_utc": "2026-11-05T21:07:48Z",
-      "last_success_utc": "2026-11-05T09:38:01Z",
-      "status": "UNCHANGED_OLDER_OR_EQUAL_EPOCH"
+      "last_attempt_utc": "2026-11-06T09:31:08Z",
+      "last_success_utc": "2026-11-06T09:31:08Z",
+      "status": "PUBLISHED"
     }
   },
   "schema": "gvsa-public-orbit-1",
   "source": "CelesTrak GP (original OMM; sample of 36 Starlink objects)",
-  "updated_at_utc": "2026-11-05T21:07:48Z"
+  "updated_at_utc": "2026-11-06T09:31:08Z"
 }
