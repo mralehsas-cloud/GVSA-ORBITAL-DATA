@@ -1,18 +1,18 @@
 {
   "feeds": {
     "iss": {
-      "last_attempt_unix": 1794163995.9980865,
-      "last_attempt_utc": "2026-11-08T18:53:15Z",
-      "last_epoch_utc": "2026-11-08T04:12:35Z",
-      "last_success_utc": "2026-11-08T18:53:15Z",
-      "status": "SIX_HOUR_COOLDOWN"
+      "last_attempt_unix": 1794218159.196477,
+      "last_attempt_utc": "2026-11-09T09:55:59Z",
+      "last_epoch_utc": "2026-11-08T21:14:20Z",
+      "last_success_utc": "2026-11-09T09:55:59Z",
+      "status": "PUBLISHED"
     },
     "starlink": {
-      "last_attempt_unix": 1794163995.9980865,
-      "last_attempt_utc": "2026-11-08T18:53:15Z",
-      "last_epoch_utc": "2026-11-08T08:36:22Z",
-      "last_success_utc": "2026-11-08T18:53:15Z",
-      "status": "SIX_HOUR_COOLDOWN"
+      "last_attempt_unix": 1794218159.196477,
+      "last_attempt_utc": "2026-11-09T09:55:59Z",
+      "last_epoch_utc": "2026-11-09T00:00:55Z",
+      "last_success_utc": "2026-11-09T09:55:59Z",
+      "status": "PUBLISHED"
     }
   },
   "schema": "gvsa-public-orbit-1"
