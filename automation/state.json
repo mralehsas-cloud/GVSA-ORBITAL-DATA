@@ -7,7 +7,7 @@
       "last_error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: TimeoutError: timed out",
       "last_success_utc": "2026-11-19T22:16:59Z",
       "no_request_before_unix": 1795255814.9743648,
-      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
+      "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
       "last_attempt_unix": 1795211547.931201,
@@ -16,7 +16,7 @@
       "last_error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: TimeoutError: The read operation timed out",
       "last_success_utc": "2026-11-19T22:16:59Z",
       "no_request_before_unix": 1795297947.931201,
-      "status": "FAILED_PROVIDER_OR_SCHEMA"
+      "status": "PROVIDER_BACKOFF"
     }
   },
   "schema": "gvsa-public-orbit-1"

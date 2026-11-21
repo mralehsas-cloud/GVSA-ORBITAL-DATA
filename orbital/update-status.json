@@ -5,17 +5,17 @@
       "error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: TimeoutError: timed out",
       "last_attempt_utc": "2026-11-20T10:10:14Z",
       "last_success_utc": "2026-11-19T22:16:59Z",
-      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
+      "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
       "epoch_utc": "2026-11-19T16:00:03Z",
       "error": "UPSTREAM_NETWORK_OR_TLS_FAILURE: TimeoutError: The read operation timed out",
       "last_attempt_utc": "2026-11-20T21:52:27Z",
       "last_success_utc": "2026-11-19T22:16:59Z",
-      "status": "FAILED_PROVIDER_OR_SCHEMA"
+      "status": "PROVIDER_BACKOFF"
     }
   },
   "schema": "gvsa-public-orbit-1",
   "source": "CelesTrak GP (original OMM; sample of 36 Starlink objects)",
-  "updated_at_utc": "2026-11-20T21:52:27Z"
+  "updated_at_utc": "2026-11-21T09:57:17Z"
 }
