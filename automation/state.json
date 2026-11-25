@@ -7,14 +7,14 @@
       "last_error": "UPSTREAM_HTTP_503",
       "last_success_utc": "2026-11-24T12:38:21Z",
       "no_request_before_unix": 1795692481.119928,
-      "status": "FAILED_PROVIDER_OR_SCHEMA"
+      "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
-      "last_attempt_unix": 1795563071.7171745,
-      "last_attempt_utc": "2026-11-24T23:31:11Z",
-      "last_epoch_utc": "2026-11-24T11:17:48Z",
-      "last_success_utc": "2026-11-24T23:31:11Z",
-      "status": "SKIPPED_AFTER_PROVIDER_ERROR"
+      "last_attempt_unix": 1795648176.5588145,
+      "last_attempt_utc": "2026-11-25T23:09:36Z",
+      "last_epoch_utc": "2026-11-25T16:00:01Z",
+      "last_success_utc": "2026-11-25T23:09:36Z",
+      "status": "PUBLISHED"
     }
   },
   "schema": "gvsa-public-orbit-1"
