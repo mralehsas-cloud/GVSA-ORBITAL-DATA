@@ -10,10 +10,10 @@
       "status": "PROVIDER_BACKOFF"
     },
     "starlink": {
-      "last_attempt_unix": 1795648176.5588145,
-      "last_attempt_utc": "2026-11-25T23:09:36Z",
-      "last_epoch_utc": "2026-11-25T16:00:01Z",
-      "last_success_utc": "2026-11-25T23:09:36Z",
+      "last_attempt_unix": 1795691087.1794863,
+      "last_attempt_utc": "2026-11-26T11:04:47Z",
+      "last_epoch_utc": "2026-11-26T05:22:30Z",
+      "last_success_utc": "2026-11-26T11:04:47Z",
       "status": "PUBLISHED"
     }
   },
